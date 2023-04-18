@@ -9,7 +9,7 @@ function palindrome(str){
     else{
         console.log("false");
     }
-	isPal("level")
+	isPal("racecar")
 module.exports = palindrome
 
 
