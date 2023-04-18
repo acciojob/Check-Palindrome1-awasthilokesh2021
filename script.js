@@ -1,17 +1,14 @@
 // complete the given function
 
 function palindrome(str){
-    let str = "race a car"
-
-	let str1 = str.reverse();
-
-	if(str==str1){
-		return true
-	}
-	else{
-		return false
-	}	
-}
+    let rev = str.split("").reverse().join("");
+    console.log(rev);
+    if(str==rev){
+        console.log("true");
+    }
+    else{
+        console.log("false");
+    }
 module.exports = palindrome
 
 
